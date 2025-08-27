@@ -1,0 +1,23 @@
+DDL - Data Defination Language 
+
+Commands = Create, Truncate, Alter, Drop :
+
+1. Create Database : 
+
+Syntax : CREATE DATABASE database_name;
+
+2. Create Table :
+
+Syntax : CREATE TABLE table_name(col_name1 DATATYPE(length), col_name2 DATATYPE(length), col_name3 DATATYPE(length));
+
+3. Truncate : use for delete all records.
+
+Syntax : TRUNCATE TABLE table_name;
+
+4. Drop Table :
+
+Syntax : DROP TABLE table_name;
+
+5. Drop Database :
+
+Syntax : DROP DATABASE database_name;
