@@ -1,22 +1,42 @@
 DDL - Data Defination Language 
 
-Commands = Create, Truncate, Alter, Drop :
+Commands = Create, Truncate, Drop :
+
+-> Create Database : The CREATE DATABASE statement is used to create a new SQL database.
+
+-> Create Table : The CREATE TABLE statement is used to create a new table in a database.
+
+-> Truncate : The TRUNCATE TABLE command deletes the data inside a table, but not the table itself.
+
+-> Drop Database : The DROP DATABASE statement is used to drop an existing SQL database.
+
+-> Drop Table : The DROP TABLE statement is used to drop an existing table in a database.
+
+-------------------------------------------------
 
 1. Create Database : 
 
 Syntax : CREATE DATABASE database_name;
 
+-------------------------------------------------
+
 2. Create Table :
 
 Syntax : CREATE TABLE table_name(col_name1 DATATYPE(length), col_name2 DATATYPE(length), col_name3 DATATYPE(length));
+
+-------------------------------------------------
 
 3. Truncate : use for delete all records.
 
 Syntax : TRUNCATE TABLE table_name;
 
+-------------------------------------------------
+
 4. Drop Table :
 
 Syntax : DROP TABLE table_name;
+
+-------------------------------------------------
 
 5. Drop Database :
 
